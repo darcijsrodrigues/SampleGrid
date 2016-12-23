@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 xmlns:local="clr-namespace:SampleGrid" 
+			 x:Class="SampleGrid.SampleGridPage">
+	<ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="5,20,5,0" Android="5,0,5,0" />
+    </ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+			<Grid RowSpacing="10" ColumnSpacing="10">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<BoxView Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="#F25022" />
+				<BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="#7FBA00" />
+				<BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="#02A4EF" />
+				<BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="#FFB901" />
+			</Grid>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

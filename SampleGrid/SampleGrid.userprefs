@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{1519BBDD-0DD7-4865-8888-3E72D7FA4254}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleGrid/SampleGridPage.xaml">
+    <Files>
+      <File FileName="SampleGrid/App.xaml" Line="1" Column="1" />
+      <File FileName="SampleGrid/SampleGridPage.xaml" Line="27" Column="71" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleGrid.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF883419-3745-42DB-8DE7-5E65460DE4B3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SampleGrid.Droid PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+</Properties>
